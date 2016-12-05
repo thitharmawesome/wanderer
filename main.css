@@ -1,0 +1,304 @@
+*{
+    padding:0;
+    margin:0;
+}
+    
+H1,p{
+    font-family: Quicksand,sans-serif;
+    font-size:30px;
+}
+
+
+.navStyling{
+    position: fixed;
+    z-index: 4;
+    background-color: rgb(255,88,91);
+    width:100%;
+    height:auto;
+}
+.navStyling img{
+    width:100px;
+    height:auto; 
+    margin-left:30px;
+}
+
+.navStyling nav a{
+    margin-top:30px;
+}
+
+.productScreenshot img{
+    height:500px;
+    width:261.37;
+    margin: 90px 130px 0 -530px;
+    float:right;
+    position:absolute;
+}
+
+.productScreenshot{
+    z-index:3;
+    max-width:50%
+    height:auto;
+}
+
+nav{
+    width: auto;
+    float: right;
+    display: flex;
+}
+
+nav a{
+    color: white;
+    padding:10px;
+    margin-right: 40px;
+    text-decoration:none;
+    font-family: Helvetica;
+    font-weight:300;
+}
+
+nav a:active{
+    text-decoration:none; 
+    border: thin solid white;
+    border-radius: 25px;
+    font-weight: 300;
+}
+
+nav a:hover{
+    text-decoration:none; 
+    border: thin solid white;
+    border-radius: 6px;
+    background-color:#fff;
+    color:rgb(255,88,91);
+    font-weight: 300;
+}
+
+nav a.active{
+    text-decoration:none; 
+    border: thin solid white;
+    border-radius: 6px;
+    font-weight: 200;
+}
+    
+
+.aboutWanderly ul li{
+    list-style: none;
+}
+
+.headerImage{
+    width:100%;
+    height:auto;
+    z-index: 0;
+    position: relative;
+    margin-top:80px;
+}
+
+.headerContent{
+    display:flex;
+}
+.wanderlyFeatures{
+    margin: 0 auto;
+    align-content: center;
+    width:100%;
+    height:260px;
+}
+
+/*.wanderlyWorks{
+    align-content: center;
+    margin:40px 0 0 300px;
+}*/
+
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  border: medium solid rgb(35,207,185);
+  font-family: Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: rgb(35,207,185);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+    width: 120px;
+}
+
+.headerbtn{
+    position: relative;
+    z-index: 15;
+     -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  border: medium solid rgb(35,207,185);
+  font-family: Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: rgb(35,207,185);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 160px;
+  height:20px;
+  margin: 310px 500px 0 0;
+}
+
+
+/*.btn:hover {
+  text-decoration: none;
+ background: rgb(255,88,91);
+}*/
+
+.btn a, .headerbtn a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.betaTester{
+    background-color: rgb(35,50,89);
+    width:100%;
+    height:300px;
+    margin: 0 auto 0 auto;
+    color:rgb(255,255,255);
+    align-content: center;
+}
+
+.footerInfo{
+    background-color: rgb(21,30,53);
+    color:#fff;
+    font-family: Helvetica, sans-serif;
+    height:140px;
+    width:95%;
+    border-bottom: thin solid rgb(255,255,255);
+    margin-left:35px;
+}
+
+footer{
+    background-color: rgb(21,30,53);
+    color:#fff;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto 0 auto;
+    display: block;
+    width:100%;
+    height:40px;
+    float:none;
+}
+
+footer p{
+    margin: 0 auto 0 630px;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size:12px;
+    float:none;
+}
+
+.socialMedia{
+    width:100%;
+    height:60px;
+    background-color: rgb(21,30,53);
+    margin: 0 auto 0 0;
+    display:flex;
+    padding-top:30px;
+}
+
+.socialMedia img{
+    width:40px;
+    height:auto;
+    display:block;
+    margin-left:680px;
+}
+
+.socialMedia a{
+    width:60px;
+    height:auto;
+}
+
+
+.aboutWanderly{
+    margin:10px 0 0 40px;
+    padding:10px;
+    width: 6%;
+    height:100px;
+}
+
+.aboutWanderly:first-child{
+    margin-left:70px;
+}
+
+.aboutWanderly:last-child{
+    margin-top:30px;
+}
+
+
+.aboutWanderly ul li{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: Quicksand,sans-serif; 
+}
+
+.aboutWanderly ul li:first-child{
+    line-height: 35px;
+    font-size: 15px;
+    font-family: Quicksand,sans-serif; 
+}
+
+#appleLogin img{
+    width:160px;
+    height: auto;
+    margin:30px 0 0 0;
+}
+
+#googleLogin img{
+    width:160px;
+    height: auto;
+    margin:30px 0 0 10px;
+}
+
+
+.wanderlyWorks h1{
+    margin-left:40px;
+}
+
+.betaTester h1{
+    margin: 0 auto 0 auto;
+    display: block;
+    clear:both;
+}
+
+.wanderlyFeatures p{
+    font-family: Quicksand, sans-serif;
+    font-size:18px;
+}
+
+.featureOne{
+    align-content: center;
+}
+
+#wanderlyAppFeatures{
+    margin:0 auto;
+}
+
+.aboutWanderly a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutWanderly a:hover{
+    color:rgb(35,207,185);
+    text-decoration:none;
+}
+
+#companyInfo{
+    background-color:rgb(21,30,53);
+}
+
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto 50px auto;
+ }
+
+.betaTesterContent h1{
+    margin 20px 0 0 450px;
+    align-content: center;
+}
+
+.wanderlyEvents h1{
+    margin: 10px 0 10px 450px;
+}
